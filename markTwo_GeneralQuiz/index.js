@@ -94,6 +94,6 @@ if(score>highscore){
 }
 console.table(highScore_arr)
 score = 0
-option = readlineSync.question("Do you want Play Again?(press Y or N)")
+option = readlineSync.keyInYN("Do you want Play Again?")
 
-}while(option === "Y" || option == "y")
+}while(option)
