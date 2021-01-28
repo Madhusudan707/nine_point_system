@@ -78,11 +78,11 @@ console.log("Previous High Scores")
 
 let highscore = highScore_arr[0].score
 
-for(let i = 1; i<highScore_arr.length;i++){
-  if(highScore_arr[i].score > highscore){
-    highscore = highScore_arr[i].score
-  }
-}
+// for(let i = 1; i<highScore_arr.length;i++){
+//   if(highScore_arr[i].score > highscore){
+//     highscore = highScore_arr[i].score
+//   }
+// }
 
 
 if(score>highscore){
